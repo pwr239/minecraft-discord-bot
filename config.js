@@ -1,23 +1,23 @@
 const config = {
     bot : {
-        slashCommands: "undefined", // global veya sunucuIDsi yazın - slash olmayacaksa undefined yapın
-	    token: "TOKEN", //Bot Tokeniniz
+        slashCommands: "1131318118313119756", // global veya sunucuIDsi yazın - slash olmayacaksa undefined yapın
+	    token: "MTE1MTIyNjY4Mjg4NDIzMTIxOQ.G6QIh2.Rar7szAYu3Tm-N6_2pVyg8PT-mTc8OAL9mPZc4", //Bot Tokeniniz
 	    prefix: ["."], //komut ön eki
-        id: "BOT ID" //bot idsi
+        id: "1151226682884231219" //bot idsi
     },
     sunucu : {
         type: "java", //sunucu türü java veya bedrock 
- 	    ip: "sunucu ip adresi", //sunucu adresi
+ 	    ip: "193.106.196.115", //sunucu adresi
         port: 25565, //sunucu portu java için varsayılan 25565 bedrock için varsayılan 19132
         site: "Sunucu Sitesi", //sunucu sitesi
-        isim: "Sunucu İsmi", //sunucu ismi
+        isim: "SauraNetwork", //sunucu ismi
         mcindir: "Oyuncuları için 3. parti minecraft indirme linki", //minecraft indirme linki
         vote: "Sunucunuzun Oy linki", //oy verme linki
         
     },
     kanal : {
 	    aktif: false, //sesli kanalda online gösterme aktif mi(true) olsun kapalı mı(false)
-	    id: "Kanal İd", // sunucu online sayısının gözükeceği kanal (ses kanalı)
+	    id: "1174358083191971930", // sunucu online sayısının gözükeceği kanal (ses kanalı)
 	    yazi: "• Aktif: {online}/{maxonline}" // kanalda gözükecek yazı || Varsayılan: • Aktif: {online}/{maxonline}
    },
     durum : {
