@@ -1,4 +1,4 @@
-echo off
+echo on
 color 1
 cls
 :a
